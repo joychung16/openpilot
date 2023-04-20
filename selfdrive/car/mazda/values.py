@@ -86,6 +86,7 @@ FW_QUERY_CONFIG = FwQueryConfig(
     Request(
       [StdQueries.MANUFACTURER_SOFTWARE_VERSION_REQUEST],
       [StdQueries.MANUFACTURER_SOFTWARE_VERSION_RESPONSE],
+      [],
     ),
   ],
 )
