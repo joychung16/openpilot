@@ -48,8 +48,9 @@ class CarInterface(CarInterfaceBase):
       
     ret.radarUnavailable = True
 
-    ret.dashcamOnly = candidate not in (CAR.CX5_2022, CAR.CX9_2021, CAR.MAZDA3_2019, CAR.CX_30, CAR.CX_50, CAR.CX_60, CAR.CX_70, CAR.CX_80, CAR.CX_90)
-
+    #ret.dashcamOnly = candidate not in (CAR.CX5_2022, CAR.CX9_2021, CAR.MAZDA3_2019, CAR.CX_30, CAR.CX_50, CAR.CX_60, CAR.CX_70, CAR.CX_80, CAR.CX_90)
+    ret.dashcamOnly = False
+    
     ret.steerActuatorDelay = 0.1
     ret.steerLimitTimer = 0.8
     tire_stiffness_factor = 0.70   # not optimized yet
