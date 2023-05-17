@@ -79,7 +79,7 @@ interfaces = load_interfaces(interface_names)
 
 # **** for use live only ****
 def fingerprint(logcan, sendcan, num_pandas):
-  fixed_fingerprint = os.environ.get('FINGERPRINT', "")
+  fixed_fingerprint = os.environ.get('FINGERPRINT', "Mazda 6")
   skip_fw_query = os.environ.get('SKIP_FW_QUERY', False)
   ecu_rx_addrs = set()
   params = Params()
